@@ -1,0 +1,58 @@
+main_notes 
+
+1) print statement: can use " and ' in print string and \' \" to print the signs
+
+2) can use escape char \*
+
+
+3) function = 
+	method = function that belongs to an object object.method
+
+4) return statements - 
+	return 0 means successfully executed.
+	return 1 means executed but some error may have occured
+
+'''
+
+5) #comment
+'''
+multipleline commet
+'''
+
+6) LISTS
+7) TUPLES
+	- A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+8) DIctionaries??????
+
+
+9) Lambda expressions - anonymous function
+add = lambda num1,num2 : num1+ num2
+
+lambda parameters: return value
+
+list of authors to sort by last name
+anonymous function to get all last names and sort them
+
+**** method.sort(key(fun to use for sorting lambda ex))
+
+
+- parameter = var in defining function
+- mudule = a file that contains definitions—including variables and functions—that you can use once it is imported.
+
+
+- argument = var input to a function
+-to check if there is input
+if len(variable) > 0:
+    do somthing with it
+else:
+    print empthy or return 1?
+
+- method.isalpha() checks if the string is only chars
+
+- seder peulot - 1111 not 2222 and 3333 or 444 is not/not in
+
+
+
+- *args **kwargs - key word arguments
+
+  
