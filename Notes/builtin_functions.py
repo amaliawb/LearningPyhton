@@ -12,3 +12,6 @@ print(math.__dir__())
 # HELP
 
 help(math.sqrt)
+
+# FILTER
+#filter(function, iterablething)

@@ -20,8 +20,17 @@ multipleline commet
 '''
 
 6) LISTS
+	a list in encloused with []
+	values that are changeable
+	allows double value
+	list = [orange, green, green, blue]
 7) TUPLES
 	- A tuple is a collection of objects which ordered and immutable. Tuples are sequences, just like lists. The differences between tuples and lists are, the tuples cannot be changed unlike lists and tuples use parentheses, whereas lists use square brackets.
+	UNCHANGABLE VALUES
+	tup = 4,5,6,7 #no enclosure defaults tuple
+	tuple = (orange, green, green, blue)
+	tuple[2] = green
+
 8) DIctionaries??????
 
 

@@ -27,7 +27,7 @@ Universal import can handle this for you. The syntax for this is:
 #math fun but i import all .math so thers no need for the specification i have 2 funcs named the same
 #also if i import from mulitple modukes i wont know which func is related to which module
 everything = dir(__name__)
-print('\nall imports from __name__:\n', everything, '\n')
+print('all imports from __name__:\n', everything, '\n')
 
 import math
 maths = dir(math)
