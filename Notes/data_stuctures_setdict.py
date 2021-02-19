@@ -63,16 +63,48 @@ print(my_info['courses'])
 #if you try to access key that doesnt exist
 #it will throw KeyError
 #to avoid this use .get()
-help(my_info.get)
+#help(my_info.get)
+
 print(my_info.get('name'))
 print(my_info.get('phone')) 
 #returns none when key isnt specified
 print(my_info.get('phone', 'not found...')) 
 
+my_info['phone'] = '0544688057'
+print(my_info)
+#UPDATING VALUES IN DICT
+# 1. assign indices
+#.update function.
+my_info['name'] = 'Bloch'
+print(my_info)
+my_info.update({'name':'amalia', 'age':'21', 'phone':'9724688057'})
+print(my_info)
 
+#print(dir(my_info))
 
+#delete
 
+del my_info['phone']
+print('\n\n\n',my_info)
 
+age = my_info.pop('age') # popped off and saved into var
+print(my_info)
+print(age)
+
+my_info.update({'name':'Amalia', 'age':'21', 'phone':'9724688057'})
+
+#loop through dict
+print('\n\n'+str(len(my_info)))
+print(my_info.keys())
+print(my_info.values())
+print(my_info.items())
+
+for key in my_info: #will hust print keys
+	print(key)
+print('\n')
+
+for key, value in my_info.items(): #will print whole dict
+	print(key, value)
 
 
 

@@ -11,9 +11,13 @@ print(aLsit)
 
 list1 = ["Mike", "", "Emma", "Kelly", "", "Brad"]
 #filter is an itaretor for 
-#filter(function tetst if elements of list return 
+#filter(function test if elements of list return 
 #		trueorfalse, if none idfunction returns false if any elemnts are false
 #		iterable such as list)
+#The filter() function in Python takes in a function and a list as arguments.
+
+#The function is called with all the items in the list and a new list 
+#is returned which contains items for which the function evaluates to True.
 print('remove empty from:', list1)
 list_new = list(filter(None, list1))
 print(list_new)
