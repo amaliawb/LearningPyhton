@@ -1,9 +1,9 @@
 # excercise 2 - lesson 3 - random
 
-import random #imports random module
+import random  # imports random module
+
 
 def get_guess(num):
-
     guess = int(input('Enter a number:\n>>> '))
     if guess == num:
         print('you won')
@@ -17,13 +17,6 @@ def randomize_to_guess():
 
 
 randomize_to_guess()
-
-
-
-
-
-
-
 
 ''' wrong that i did: needed to make func for getting guess and func for random num, call getting guess inside random number
 
@@ -65,4 +58,3 @@ guess_two = input('again:\n>>>')
 info_on_guess(guess_two)
 
 '''
-

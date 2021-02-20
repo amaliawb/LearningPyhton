@@ -1,9 +1,10 @@
-#ex_download_pic.py
-#write a func that receives a url and downloads
-#pic to computer.
+# ex_download_pic.py
+# write a func that receives a url and downloads
+# pic to computer.
 import random
 import urllib.request
-#urellib is a library in the request module
+
+# urellib is a library in the request module
 """urlretrieve takes the pic that the url
 leads to and copies it to a local file in my
 computer.
@@ -22,28 +23,15 @@ result of httpMessage object
 returns (filename -- path to url in my comp, headers -- all data linked to url)
 """
 
+def download_image(url):
+    rand = random.randint(1, 1000)
+    full_name = str(rand) + '.png'
+    # randomises a pic name with number and png suffix
+    urllib.request.urlretrieve(url, full_name)
 
+download_image()
 
-
-def pic_name():
-	"""randomises a pic name with number and png suffix"""
-	rand = random.randint(1,1000)
-	name = str(rand) + '.png'
-	return name
-
-print(pic_name())
-#https problem
-urllib.request.urlretrieve('http://she-codes.org/wp-content/uploads/2019/07/banner_she_con2019_center-01-1-1-1024x576.png', filename = pic_name)
-
-
-
-
-
-
-
-
-
-
+# find http download
 
 
 
