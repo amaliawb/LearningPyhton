@@ -90,7 +90,7 @@ print(my_info['courses'])
 # it will throw KeyError
 # to avoid this use .get()
 # help(my_info.get)
-
+print('.GET =')
 print(my_info.get('name'))
 print(my_info.get('phone'))
 # returns none when key isnt specified
