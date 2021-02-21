@@ -22,8 +22,15 @@ def make_dictionary(rot_num):
 
 def encode(str):
     dict13 = make_dictionary(13)
-    if len(str) > 8 and str.isalpha():
-        print('no')
-    else:
+    print(dict13)
+    new_str = ''
+    # if str.isalpha():
+    for letter in str:
+        if letter == ' ':
+            new_str += ' '
+        else:
+            new_str += dict13[letter]
+    return new_str
 
-print(encode('sdk'))
+
+print(encode('V NZ YRNEAVAT CLGUBA JVGU FUR PBQRF NPNQRZL'))
