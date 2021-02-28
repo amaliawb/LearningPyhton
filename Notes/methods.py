@@ -7,6 +7,16 @@ print(message.isalpha())
 
 print(message.isalnum())
 
+#  RANGE()
+range(6) # => [0, 1, 2, 3, 4, 5]
+range(1, 6) # => [1, 2, 3, 4, 5]
+range(1, 6, 3) # => [1, 4]
+'''
+range(stop)
+range(start, stop)
+range(start, stop, step)
+'''
+
 # .isalpha --- check if all letters in string are letters - no whitespace
 message = 'hello'
 print('is hello alpha:',message.isalpha())

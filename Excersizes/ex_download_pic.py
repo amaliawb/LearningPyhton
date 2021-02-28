@@ -29,7 +29,7 @@ def download_image(url):
     # randomises a pic name with number and png suffix
     urllib.request.urlretrieve(url, full_name)
 
-download_image()
+download_image('https://ynet-images1.yit.co.il/picserver5/crop_images/2020/08/26/10202134/10202134_0_15_1300_732_0_x-large.jpg')
 
 # find http download
 
