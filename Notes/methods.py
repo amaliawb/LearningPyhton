@@ -89,3 +89,27 @@ print(message)
 # fstrings - from py 3.6 and above - make str formatting easy
 message = f'{greeting}, {name}. WELCOME'
 print(message)
+
+
+# enumerate returns method adds counter to an iterable and returns it. The returned object is a enumerate object.
+#
+# You can convert enumerate objects to list and tuple using list() and tuple() method respectively.
+
+list3 = ['one', 'two', 'three']
+
+for i, j in enumerate(list3):
+   print(i, j)
+
+
+print(list(enumerate(list3)))
+
+
+# ZIP
+# zip will create pairs of elements when passed two lists, and will stop at the end of the shorter list.
+# zip can handle three or more lists as well!
+
+list_a = [3, 9, 17, 15, 19]
+list_b = [2, 4, 8, 10, 30, 40, 50, 60, 70, 80, 90]
+
+for a, b in zip(list_a, list_b):
+    print(max(a, b))
