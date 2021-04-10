@@ -70,6 +70,7 @@ flatten(n)
 # while True:
 # do this
 # while else: while true do this but else = while false do this
+'''
 from random import randint
 
 # Generates a number from 1 through 10 inclusive
@@ -87,7 +88,7 @@ while guesses_left > 0:
   guesses_left -= 1
 else:
   print 'You lose.'
-
+'''
 
 # BREAK
 
