@@ -113,4 +113,44 @@ one2nine = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 first_list = [ele * 100 for ele in one2nine if ele % 2 == 0]
 print(first_list)'''
 
+ex4 = list(map(lambda x: x * 100, filter(lambda i: i % 2 == 0, range(1, 10))))
+print(ex4)
+
+# LAMBDA WITH IF ELSE
+ex4 = list(map(lambda x: x * 100 if x % 2 == 0 else x, range(1, 10)))
+print(ex4)
+
+seven_boom = list(map(lambda x: 'boom' if x % 7 == 0 else x, range(1, 100)))
+print(seven_boom)
+
+# function sum receives 2 nums returns sum
+sum2 = lambda x, y: x + y
+print(sum2(2, 8))
+
+# all combination (1,1)(6,6)
+comb = []
+
+for i in range(1, 7):
+    for j in range(1, 7):
+        comb.append((i, j))
+print('1:', comb)
+
+comb2 = [(i, j) for i in range(1, 7) for j in range(1, 7)]
+print('2:', comb2)
+
+#
+
+languages = ['html', 'javascript', 'python']
+
+print(list(filter(lambda x: x == 'python', languages)))
+
+# JAOUL
+
+jouls = [5000, 8000, 10000, 6000, 12000]
+
+new = [(ej, kk) for ej in jouls for kk in list(map(lambda x: x / 4184, jouls))]
+print(new)
+
+new2 = [(j, cal) for (j, cal) in zip(jouls, list(map(lambda x: x / 4184, jouls)))]
+print(new2)
 
